@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free AI Text Humanizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Free AI Text Humanizer</h1>
+        <div class="input-area">
+            <label for="ai-text">Paste AI-Generated Text Here:</label>
+            <textarea id="ai-text" rows="10"></textarea>
+        </div>
+        <button id="humanize-button">Humanize!</button>
+        <div class="output-area">
+            <h2>Humanized Text:</h2>
+            <textarea id="humanized-text" rows="10" readonly placeholder="Your humanized text will appear here."></textarea>
+        </div>
+        <div class="features">
+            <h2>Special Features (Coming Soon!)</h2>
+            <ul>
+                <li>Style Analysis</li>
+                <li>Vocabulary Enrichment Suggestions</li>
+                <li>Tone Adjustment Slider</li>
+                <li>"Humanity Score"</li>
+                </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
